@@ -1,0 +1,4 @@
+Sitemap: http://nikoboo4u.github.io/sitemapindex.xml
+
+User-Agent: *
+Host: nikoboo4u.github.io
