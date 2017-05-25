@@ -1,0 +1,30 @@
+<!--
+.. title: First post - Code Blocs
+.. slug: first-post
+.. date: 2017-05-17 16:20:57 UTC+03:00
+.. tags: nikola
+.. category:
+.. link:
+.. description:
+.. type: text
+-->
+
+<h3>Code Blocks for rst-format</h3>
+
+<p>The code directive has been part of Docutils since version 0.9 and two aliases, code-block and sourcecode are also supported.</p>
+<p>Let's add the following code block to the demo and see how it looks:</p>
+
+<pre>
+  .. code-block:: python
+   :number-lines:
+
+   def sieve_of_eratosthenes():
+       factors = defaultdict(set)
+       for n in count(2):
+           if factors[n]:
+               for m in factors.pop(n):
+                   factors[n+m].add(m)
+           else:
+               factors[n*n].add(n)
+               yield n
+  </pre>

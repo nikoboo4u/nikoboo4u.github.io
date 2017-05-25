@@ -1,6 +1,6 @@
 #container {
-    width: 960px;
-    margin: 0 auto;
+    /*width: 960px;*/
+    /*margin: 0 auto;*/
 }
 
 #contentcolumn {
@@ -144,23 +144,6 @@ article.post-micro {
     margin-top: 1em;
 }
 
-.navbar-brand {
-    padding: 0 15px;
-}
-
-.navbar-brand #blog-title {
-    padding: 15px 0;
-    display: inline-block;
-}
-
-.navbar-brand #logo {
-    max-width: 100%;
-}
-
-.navbar-brand>img {
-    display: inline;
-}
-
 .row {
     margin: 0;
 }
@@ -212,4 +195,14 @@ article.post-micro {
     .navbar {
         display: none;
     }
+}
+
+pre {
+    border: 1px solid #ccc;
+    border-radius: 0.25rem;
+    padding: 0.75rem;
+}
+
+.postindexpager {
+    padding-bottom: 1rem;
 }

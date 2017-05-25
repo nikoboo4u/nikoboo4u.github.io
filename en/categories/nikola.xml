@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet type="text/xsl" href="../../assets/xml/rss.xsl" media="all"?><rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" version="2.0"><channel><title>Nikoboo4u (Posts about nikola)</title><link>http://localhost:8000/</link><description></description><atom:link href="http://localhost:8000/en/categories/nikola.xml" type="application/rss+xml" rel="self"></atom:link><language>en</language><copyright>Contents © 2017 &lt;a href="mailto:nikoboo4u@gmail.com"&gt;nikoboo4u&lt;/a&gt; </copyright><lastBuildDate>Wed, 24 May 2017 11:05:59 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>First post - Code Blocs</title><link>http://localhost:8000/en/posts/first-post/</link><dc:creator>nikoboo4u</dc:creator><description>&lt;h3&gt;Code Blocks for rst-format&lt;/h3&gt;
+
+&lt;p&gt;The code directive has been part of Docutils since version 0.9 and two aliases, code-block and sourcecode are also supported.&lt;/p&gt;
+&lt;p&gt;Let's add the following code block to the demo and see how it looks:&lt;/p&gt;
+
+&lt;pre&gt;
+  .. code-block:: python
+   :number-lines:
+
+   def sieve_of_eratosthenes():
+       factors = defaultdict(set)
+       for n in count(2):
+           if factors[n]:
+               for m in factors.pop(n):
+                   factors[n+m].add(m)
+           else:
+               factors[n*n].add(n)
+               yield n
+  &lt;/pre&gt;</description><category>nikola</category><guid>http://localhost:8000/en/posts/first-post/</guid><pubDate>Wed, 17 May 2017 13:20:57 GMT</pubDate></item></channel></rss>

@@ -6,31 +6,43 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <sitemap>
-  <loc>http://nikoboo4u.github.io/en/galleries/rss.xml</loc>
-  <lastmod>2017-05-17T08:31:00Z</lastmod>
+  <loc>http://localhost:8000/categories/nikola.xml</loc>
+  <lastmod>2017-05-24T11:05:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://nikoboo4u.github.io/en/rss.xml</loc>
-  <lastmod>2017-05-17T08:32:00Z</lastmod>
+  <loc>http://localhost:8000/en/categories/nikola.xml</loc>
+  <lastmod>2017-05-24T11:05:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://nikoboo4u.github.io/galleries/rss.xml</loc>
-  <lastmod>2017-05-17T08:31:00Z</lastmod>
+  <loc>http://localhost:8000/en/galleries/rss.xml</loc>
+  <lastmod>2017-05-25T10:13:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://nikoboo4u.github.io/rss.xml</loc>
-  <lastmod>2017-05-17T08:32:00Z</lastmod>
+  <loc>http://localhost:8000/en/rss.xml</loc>
+  <lastmod>2017-05-24T11:40:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://nikoboo4u.github.io/sitemap.xml</loc>
-  <lastmod>2017-05-17T08:32:00Z</lastmod>
+  <loc>http://localhost:8000/galleries/rss.xml</loc>
+  <lastmod>2017-05-25T10:13:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://nikoboo4u.github.io/uk/galleries/rss.xml</loc>
-  <lastmod>2017-05-17T08:31:00Z</lastmod>
+  <loc>http://localhost:8000/rss.xml</loc>
+  <lastmod>2017-05-24T11:40:00Z</lastmod>
  </sitemap>
  <sitemap>
-  <loc>http://nikoboo4u.github.io/uk/rss.xml</loc>
-  <lastmod>2017-05-17T08:32:00Z</lastmod>
+  <loc>http://localhost:8000/sitemap.xml</loc>
+  <lastmod>2017-05-25T11:34:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://localhost:8000/uk/categories/nikola.xml</loc>
+  <lastmod>2017-05-24T11:05:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://localhost:8000/uk/galleries/rss.xml</loc>
+  <lastmod>2017-05-25T10:13:00Z</lastmod>
+ </sitemap>
+ <sitemap>
+  <loc>http://localhost:8000/uk/rss.xml</loc>
+  <lastmod>2017-05-24T11:40:00Z</lastmod>
  </sitemap>
 </sitemapindex>

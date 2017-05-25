@@ -11,7 +11,7 @@
 <link rel="alternate" type="application/rss+xml" title="RSS (en)" href="../rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (ru)" href="../../rss.xml">
 <link rel="alternate" type="application/rss+xml" title="RSS (uk)" href="../../uk/rss.xml">
-<link rel="canonical" href="http://nikoboo4u.github.io/en/blog/">
+<link rel="canonical" href="http://localhost:8000/en/blog/">
 <!--[if lt IE 9]><script src="../../assets/js/html5.js"></script><![endif]-->
 </head>
 <body>
@@ -19,43 +19,35 @@
 
 <!-- Menubar -->
 
-<nav class="navbar navbar-inverse navbar-static-top"><div class="container">
+<nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse static-top mb-4"><div class="container">
 <!-- This keeps the margins nice -->
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false">
-            <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="http://nikoboo4u.github.io/en/">
+        <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#bs-navbar" aria-controls="bs-navbar" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <a class="navbar-brand" href="http://localhost:8000/en/">
 
-                <span id="blog-title">Nikoboo4u</span>
-            </a>
-        </div>
-<!-- /.navbar-header -->
-        <div class="collapse navbar-collapse" id="bs-navbar" aria-expanded="false">
-            <ul class="nav navbar-nav">
-<li>
-<a href="../archive.html">Archive</a>
-                </li>
-<li>
-<a href="../categories/">Tags</a>
-                </li>
-<li>
-<a href="../rss.xml">RSS feed</a>
+            <span id="blog-title">Nikoboo4u</span>
+        </a>
+
+        <div class="collapse navbar-collapse" id="bs-navbar">
+            <ul class="navbar-nav mr-auto"><li class="nav-item dropdown">
+<a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Blog</a>
+            <div class="dropdown-menu">
+                    <a href="#" class="dropdown-item">Articles</a>
+                    <a href="../archive.html" class="dropdown-item">Archive</a>
+                    <a href="../categories/" class="dropdown-item">Tags</a>
+                    <a href="../rss.xml" class="dropdown-item">RSS feed</a>
+            </div>
 
                 
-            </li>
-</ul>
-<ul class="nav navbar-nav navbar-right">
+            </li></ul>
+<ul class="navbar-nav navbar-right">
 <li>
             </li>
-<li><a href="http://nikoboo4u.github.io/" rel="alternate" hreflang="ru">Русский</a></li>
-            <li><a href="http://nikoboo4u.github.io/uk/" rel="alternate" hreflang="uk">Українська</a></li>
+<li><a href="http://localhost:8000/" rel="alternate" hreflang="ru">Русский</a></li>
+            <li><a href="http://localhost:8000/uk/" rel="alternate" hreflang="uk">Українська</a></li>
 
                 
-                    
                 
             </ul>
 </div>
@@ -65,12 +57,111 @@
 </nav><!-- End of Menubar --><div class="container" id="content" role="main">
     <div class="body-content">
         <!--Body content-->
-        <div class="row">
-            
-            
+        
+        
 
     
 <div class="postindex">
+    <article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="../posts/rst-format-directives/" class="u-url">rst-format directives.</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                nikoboo4u
+            </span></p>
+            <p class="dateline"><a href="../posts/rst-format-directives/" rel="bookmark"><time class="published dt-published" datetime="2017-05-24T14:07:42+03:00" title="2017-05-24 14:07">2017-05-24 14:07</time></a></p>
+                <p class="commentline">
+        
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <div>
+<p>Директива кода была частью Docutils, начиная с версии 0.9, и поддерживаются два псевдонима, кодовый блок и исходный код.</p>
+<p>Давайте добавим следующий фрагмент кода в демонстрационный пример и посмотрим, как он выглядит:</p>
+<p><tt class="docutils literal">.. <span class="pre">code-block::</span> python</tt></p>
+<blockquote>
+<tt class="docutils literal"><span class="pre">:number-lines:</span></tt>
+</blockquote>
+<table class="codetable"><tr>
+<td class="linenos"><div class="linenodiv"><pre><a href="../posts/rst-format-directives/#rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-1">1</a>
+<a href="../posts/rst-format-directives/#rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-2">2</a>
+<a href="../posts/rst-format-directives/#rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-3">3</a>
+<a href="../posts/rst-format-directives/#rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-4">4</a>
+<a href="../posts/rst-format-directives/#rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-5">5</a>
+<a href="../posts/rst-format-directives/#rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-6">6</a>
+<a href="../posts/rst-format-directives/#rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-7">7</a>
+<a href="../posts/rst-format-directives/#rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-8">8</a>
+<a href="../posts/rst-format-directives/#rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-9">9</a></pre></div></td>
+<td class="code"><pre class="code python"><a name="rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-1"></a><span class="k">def</span> <span class="nf">sieve_of_eratosthenes</span><span class="p">():</span>
+<a name="rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-2"></a>      <span class="n">factors</span> <span class="o">=</span> <span class="n">defaultdict</span><span class="p">(</span><span class="nb">set</span><span class="p">)</span>
+<a name="rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-3"></a>    <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">count</span><span class="p">(</span><span class="mi">2</span><span class="p">):</span>
+<a name="rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-4"></a>        <span class="k">if</span> <span class="n">factors</span><span class="p">[</span><span class="n">n</span><span class="p">]:</span>
+<a name="rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-5"></a>            <span class="k">for</span> <span class="n">m</span> <span class="ow">in</span> <span class="n">factors</span><span class="o">.</span><span class="n">pop</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+<a name="rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-6"></a>                <span class="n">factors</span><span class="p">[</span><span class="n">n</span><span class="o">+</span><span class="n">m</span><span class="p">]</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">m</span><span class="p">)</span>
+<a name="rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-7"></a>        <span class="k">else</span><span class="p">:</span>
+<a name="rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-8"></a>            <span class="n">factors</span><span class="p">[</span><span class="n">n</span><span class="o">*</span><span class="n">n</span><span class="p">]</span><span class="o">.</span><span class="n">add</span><span class="p">(</span><span class="n">n</span><span class="p">)</span>
+<a name="rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-9"></a>            <span class="k">yield</span> <span class="n">n</span>
+</pre></td>
+</tr></table>
+<p>or</p>
+<p><tt class="docutils literal">.. <span class="pre">code-block::</span> css</tt></p>
+<pre class="code css"><a name="rest_code_caf9b124d7f545dca46aee57e3a2b721-1"></a><span class="nt">div</span><span class="p">.</span><span class="nc">sidebar</span><span class="o">,</span><span class="p">.</span><span class="nc">sidebar</span> <span class="p">{</span>
+<a name="rest_code_caf9b124d7f545dca46aee57e3a2b721-2"></a>    <span class="k">position</span><span class="p">:</span> <span class="kc">fixed</span><span class="p">;</span>
+<a name="rest_code_caf9b124d7f545dca46aee57e3a2b721-3"></a>    <span class="k">top</span><span class="p">:</span> <span class="mi">0</span><span class="p">;</span>
+<a name="rest_code_caf9b124d7f545dca46aee57e3a2b721-4"></a>    <span class="k">bottom</span><span class="p">:</span> <span class="mi">0</span><span class="p">;</span>
+<a name="rest_code_caf9b124d7f545dca46aee57e3a2b721-5"></a>     <span class="err">[...]</span>
+</pre>
+</div>
+    </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="../posts/vtoroi-post/" class="u-url">Второй пост</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                nikoboo4u
+            </span></p>
+            <p class="dateline"><a href="../posts/vtoroi-post/" rel="bookmark"><time class="published dt-published" datetime="2017-05-17T16:24:10+03:00" title="2017-05-17 16:24">2017-05-17 16:24</time></a></p>
+                <p class="commentline">
+        
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    Создайте Вашу запись здесь.
+    </div>
+    </article><article class="h-entry post-text"><header><h1 class="p-name entry-title"><a href="../posts/first-post/" class="u-url">First post - Code Blocs</a></h1>
+        <div class="metadata">
+            <p class="byline author vcard"><span class="byline-name fn" itemprop="author">
+                nikoboo4u
+            </span></p>
+            <p class="dateline"><a href="../posts/first-post/" rel="bookmark"><time class="published dt-published" datetime="2017-05-17T16:20:57+03:00" title="2017-05-17 16:20">2017-05-17 16:20</time></a></p>
+                <p class="commentline">
+        
+
+
+        </p>
+</div>
+    </header><div class="e-content entry-content">
+    <h3>Code Blocks for rst-format</h3>
+
+<p>The code directive has been part of Docutils since version 0.9 and two aliases, code-block and sourcecode are also supported.</p>
+<p>Let's add the following code block to the demo and see how it looks:</p>
+
+<pre>
+  .. code-block:: python
+   :number-lines:
+
+   def sieve_of_eratosthenes():
+       factors = defaultdict(set)
+       for n in count(2):
+           if factors[n]:
+               for m in factors.pop(n):
+                   factors[n+m].add(m)
+           else:
+               factors[n*n].add(n)
+               yield n
+  </pre>
+    </div>
+    </article>
 </div>
 
 
@@ -81,7 +172,6 @@
 
 
 
-        </div>
         <!--End of body content-->
 
         <footer id="footer">
@@ -94,7 +184,7 @@
 
             <script src="../../assets/js/all-nocdn.js"></script><script>$('a.image-reference:not(.islink) img:not(.islink)').parent().colorbox({rel:"gal",maxWidth:"100%",maxHeight:"100%",scalePhotos:true});</script><!-- fancy dates --><script>
     moment.locale("en");
-    fancydates(0, "YYYY-MM-DD HH:mm");
+    fancydates(1, "YYYY-MM-DD HH:mm");
     </script><!-- end fancy dates -->
 </body>
 </html>

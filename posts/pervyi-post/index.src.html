@@ -1,0 +1,44 @@
+<!--
+.. title: первый пост
+.. slug: pervyi-post
+.. date: 2017-05-17 16:20:57 UTC+03:00
+.. tags: nikola
+.. category:
+.. link:
+.. description:
+.. type: text
+-->
+
+<h3>Блоки кода для <em>rst-format</em></h3>
+
+<p>Директива кода была частью Docutils, начиная с версии 0.9, и поддерживаются два псевдонима, кодовый блок и исходный код.</p>
+<p>Давайте добавим следующий фрагмент кода в демонстрационный пример и посмотрим, как он выглядит:</p>
+
+<pre>
+  .. code-block:: python
+   :number-lines:
+
+   def sieve_of_eratosthenes():
+       factors = defaultdict(set)
+       for n in count(2):
+           if factors[n]:
+               for m in factors.pop(n):
+                   factors[n+m].add(m)
+           else:
+               factors[n*n].add(n)
+               yield n
+  </pre>
+
+  or
+
+  <pre>
+  .. code:: css
+
+    div.sidebar,.sidebar {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        left: -14rem;
+        width: 14rem;
+        [...]  
+  </pre>

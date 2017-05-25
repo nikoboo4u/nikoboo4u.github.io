@@ -1,2 +1,49 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Nikoboo4u</title><link>http://nikoboo4u.github.io/</link><description>demo site with Nikola site-generator and Bootstrap4 theme</description><atom:link rel="self" href="http://nikoboo4u.github.io/en/rss.xml" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2017 &lt;a href="mailto:nikoboo4u@gmail.com"&gt;nikoboo4u&lt;/a&gt; </copyright><lastBuildDate>Wed, 17 May 2017 08:32:00 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs></channel></rss>
+<?xml-stylesheet type="text/xsl" href="../assets/xml/rss.xsl" media="all"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/"><channel><title>Nikoboo4u</title><link>http://localhost:8000/</link><description>demo site with Nikola site-generator and Bootstrap4 theme</description><atom:link href="http://localhost:8000/en/rss.xml" rel="self" type="application/rss+xml"></atom:link><language>en</language><copyright>Contents © 2017 &lt;a href="mailto:nikoboo4u@gmail.com"&gt;nikoboo4u&lt;/a&gt; </copyright><lastBuildDate>Wed, 24 May 2017 11:40:09 GMT</lastBuildDate><generator>Nikola (getnikola.com)</generator><docs>http://blogs.law.harvard.edu/tech/rss</docs><item><title>rst-format directives.</title><link>http://localhost:8000/en/posts/rst-format-directives/</link><dc:creator>nikoboo4u</dc:creator><description>&lt;div&gt;&lt;p&gt;Директива кода была частью Docutils, начиная с версии 0.9, и поддерживаются два псевдонима, кодовый блок и исходный код.&lt;/p&gt;
+&lt;p&gt;Давайте добавим следующий фрагмент кода в демонстрационный пример и посмотрим, как он выглядит:&lt;/p&gt;
+&lt;p&gt;&lt;tt class="docutils literal"&gt;.. &lt;span class="pre"&gt;code-block::&lt;/span&gt; python&lt;/tt&gt;&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;:number-lines:&lt;/span&gt;&lt;/tt&gt;&lt;/blockquote&gt;
+&lt;table class="codetable"&gt;&lt;tr&gt;&lt;td class="linenos"&gt;&lt;div class="linenodiv"&gt;&lt;pre&gt;&lt;a href="http://localhost:8000/en/posts/rst-format-directives/#rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-1"&gt;1&lt;/a&gt;
+&lt;a href="http://localhost:8000/en/posts/rst-format-directives/#rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-2"&gt;2&lt;/a&gt;
+&lt;a href="http://localhost:8000/en/posts/rst-format-directives/#rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-3"&gt;3&lt;/a&gt;
+&lt;a href="http://localhost:8000/en/posts/rst-format-directives/#rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-4"&gt;4&lt;/a&gt;
+&lt;a href="http://localhost:8000/en/posts/rst-format-directives/#rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-5"&gt;5&lt;/a&gt;
+&lt;a href="http://localhost:8000/en/posts/rst-format-directives/#rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-6"&gt;6&lt;/a&gt;
+&lt;a href="http://localhost:8000/en/posts/rst-format-directives/#rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-7"&gt;7&lt;/a&gt;
+&lt;a href="http://localhost:8000/en/posts/rst-format-directives/#rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-8"&gt;8&lt;/a&gt;
+&lt;a href="http://localhost:8000/en/posts/rst-format-directives/#rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-9"&gt;9&lt;/a&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/td&gt;&lt;td class="code"&gt;&lt;pre class="code python"&gt;&lt;a name="rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-1"&gt;&lt;/a&gt;&lt;span class="k"&gt;def&lt;/span&gt; &lt;span class="nf"&gt;sieve_of_eratosthenes&lt;/span&gt;&lt;span class="p"&gt;():&lt;/span&gt;
+&lt;a name="rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-2"&gt;&lt;/a&gt;      &lt;span class="n"&gt;factors&lt;/span&gt; &lt;span class="o"&gt;=&lt;/span&gt; &lt;span class="n"&gt;defaultdict&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="nb"&gt;set&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;a name="rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-3"&gt;&lt;/a&gt;    &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;count&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="mi"&gt;2&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;a name="rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-4"&gt;&lt;/a&gt;        &lt;span class="k"&gt;if&lt;/span&gt; &lt;span class="n"&gt;factors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;]:&lt;/span&gt;
+&lt;a name="rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-5"&gt;&lt;/a&gt;            &lt;span class="k"&gt;for&lt;/span&gt; &lt;span class="n"&gt;m&lt;/span&gt; &lt;span class="ow"&gt;in&lt;/span&gt; &lt;span class="n"&gt;factors&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;pop&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;):&lt;/span&gt;
+&lt;a name="rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-6"&gt;&lt;/a&gt;                &lt;span class="n"&gt;factors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="o"&gt;+&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;m&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;a name="rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-7"&gt;&lt;/a&gt;        &lt;span class="k"&gt;else&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt;
+&lt;a name="rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-8"&gt;&lt;/a&gt;            &lt;span class="n"&gt;factors&lt;/span&gt;&lt;span class="p"&gt;[&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="o"&gt;*&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;]&lt;/span&gt;&lt;span class="o"&gt;.&lt;/span&gt;&lt;span class="n"&gt;add&lt;/span&gt;&lt;span class="p"&gt;(&lt;/span&gt;&lt;span class="n"&gt;n&lt;/span&gt;&lt;span class="p"&gt;)&lt;/span&gt;
+&lt;a name="rest_code_8fd15ccaaf8d4caf86f8942fe288e87e-9"&gt;&lt;/a&gt;            &lt;span class="k"&gt;yield&lt;/span&gt; &lt;span class="n"&gt;n&lt;/span&gt;
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/table&gt;&lt;p&gt;or&lt;/p&gt;
+&lt;p&gt;&lt;tt class="docutils literal"&gt;.. &lt;span class="pre"&gt;code-block::&lt;/span&gt; css&lt;/tt&gt;&lt;/p&gt;
+&lt;pre class="code css"&gt;&lt;a name="rest_code_caf9b124d7f545dca46aee57e3a2b721-1"&gt;&lt;/a&gt;&lt;span class="nt"&gt;div&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;sidebar&lt;/span&gt;&lt;span class="o"&gt;,&lt;/span&gt;&lt;span class="p"&gt;.&lt;/span&gt;&lt;span class="nc"&gt;sidebar&lt;/span&gt; &lt;span class="p"&gt;{&lt;/span&gt;
+&lt;a name="rest_code_caf9b124d7f545dca46aee57e3a2b721-2"&gt;&lt;/a&gt;    &lt;span class="k"&gt;position&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="kc"&gt;fixed&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;a name="rest_code_caf9b124d7f545dca46aee57e3a2b721-3"&gt;&lt;/a&gt;    &lt;span class="k"&gt;top&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;a name="rest_code_caf9b124d7f545dca46aee57e3a2b721-4"&gt;&lt;/a&gt;    &lt;span class="k"&gt;bottom&lt;/span&gt;&lt;span class="p"&gt;:&lt;/span&gt; &lt;span class="mi"&gt;0&lt;/span&gt;&lt;span class="p"&gt;;&lt;/span&gt;
+&lt;a name="rest_code_caf9b124d7f545dca46aee57e3a2b721-5"&gt;&lt;/a&gt;     &lt;span class="err"&gt;[...]&lt;/span&gt;
+&lt;/pre&gt;&lt;/div&gt;</description><guid>http://localhost:8000/en/posts/rst-format-directives/</guid><pubDate>Wed, 24 May 2017 11:07:42 GMT</pubDate></item><item><title>Второй пост</title><link>http://localhost:8000/en/posts/vtoroi-post/</link><dc:creator>nikoboo4u</dc:creator><description>Создайте Вашу запись здесь.</description><guid>http://localhost:8000/en/posts/vtoroi-post/</guid><pubDate>Wed, 17 May 2017 13:24:10 GMT</pubDate></item><item><title>First post - Code Blocs</title><link>http://localhost:8000/en/posts/first-post/</link><dc:creator>nikoboo4u</dc:creator><description>&lt;h3&gt;Code Blocks for rst-format&lt;/h3&gt;
+
+&lt;p&gt;The code directive has been part of Docutils since version 0.9 and two aliases, code-block and sourcecode are also supported.&lt;/p&gt;
+&lt;p&gt;Let's add the following code block to the demo and see how it looks:&lt;/p&gt;
+
+&lt;pre&gt;
+  .. code-block:: python
+   :number-lines:
+
+   def sieve_of_eratosthenes():
+       factors = defaultdict(set)
+       for n in count(2):
+           if factors[n]:
+               for m in factors.pop(n):
+                   factors[n+m].add(m)
+           else:
+               factors[n*n].add(n)
+               yield n
+  &lt;/pre&gt;</description><category>nikola</category><guid>http://localhost:8000/en/posts/first-post/</guid><pubDate>Wed, 17 May 2017 13:20:57 GMT</pubDate></item></channel></rss>

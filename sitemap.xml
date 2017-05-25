@@ -6,67 +6,221 @@
     xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
                         http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
  <url>
-  <loc>http://nikoboo4u.github.io/</loc>
+  <loc>http://localhost:8000/</loc>
+  <lastmod>2017-05-25T04:42:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="uk" href="http://localhost:8000/uk/" />
+  <xhtml:link rel="alternate" hreflang="en" href="http://localhost:8000/en/" />
+ </url>
+ <url>
+  <loc>http://localhost:8000/2017/</loc>
+  <lastmod>2017-05-19T08:25:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/about/</loc>
+  <lastmod>2017-05-19T10:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/archive.html</loc>
+  <lastmod>2017-05-25T10:13:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/blog/</loc>
+  <lastmod>2017-05-17T08:31:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/categories/</loc>
+  <lastmod>2017-05-24T06:45:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/categories/nikola/</loc>
+  <lastmod>2017-05-24T06:45:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/contacts/</loc>
+  <lastmod>2017-05-19T11:24:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/en/</loc>
+  <lastmod>2017-05-25T04:42:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/en/2017/</loc>
+  <lastmod>2017-05-23T14:16:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/en/about/</loc>
+  <lastmod>2017-05-23T14:16:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/en/archive.html</loc>
+  <lastmod>2017-05-25T10:13:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/en/blog/</loc>
   <lastmod>2017-05-17T08:32:00Z</lastmod>
  </url>
  <url>
-  <loc>http://nikoboo4u.github.io/archive.html</loc>
+  <loc>http://localhost:8000/en/categories/</loc>
+  <lastmod>2017-05-24T06:45:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/en/categories/nikola/</loc>
+  <lastmod>2017-05-24T06:45:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/en/contacts/</loc>
+  <lastmod>2017-05-23T14:16:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/en/galleries/</loc>
   <lastmod>2017-05-17T08:31:00Z</lastmod>
  </url>
  <url>
-  <loc>http://nikoboo4u.github.io/blog/</loc>
+  <loc>http://localhost:8000/en/home/</loc>
+  <lastmod>2017-05-25T04:42:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/en/main/</loc>
+  <lastmod>2017-05-24T10:12:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/en/posts/</loc>
+  <lastmod>2017-05-24T11:07:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/en/posts/first-post/</loc>
+  <lastmod>2017-05-24T06:44:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:8000/posts/pervyi-post/" />
+  <xhtml:link rel="alternate" hreflang="uk" href="http://localhost:8000/uk/posts/pershi-post/" />
+ </url>
+ <url>
+  <loc>http://localhost:8000/en/posts/pershi-post/</loc>
+  <lastmod>2017-05-24T06:44:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/en/posts/pervyi-post/</loc>
+  <lastmod>2017-05-23T14:16:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/en/posts/rst-format-directives/</loc>
+  <lastmod>2017-05-24T11:07:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:8000/posts/rst-format-directives/" />
+ </url>
+ <url>
+  <loc>http://localhost:8000/en/posts/vtoroi-post/</loc>
+  <lastmod>2017-05-23T14:16:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:8000/posts/vtoroi-post/" />
+  <xhtml:link rel="alternate" hreflang="uk" href="http://localhost:8000/uk/posts/drugiy-post/" />
+ </url>
+ <url>
+  <loc>http://localhost:8000/galleries/</loc>
+  <lastmod>2017-05-19T08:24:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/home/</loc>
+  <lastmod>2017-05-25T04:42:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/listings/</loc>
+  <lastmod>2017-05-19T08:24:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/posts/</loc>
+  <lastmod>2017-05-24T11:07:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/posts/first-post/</loc>
+  <lastmod>2017-05-24T06:54:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/posts/pervyi-post/</loc>
+  <lastmod>2017-05-19T08:26:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="uk" href="http://localhost:8000/uk/posts/pershi-post/" />
+  <xhtml:link rel="alternate" hreflang="en" href="http://localhost:8000/en/posts/first-post/" />
+ </url>
+ <url>
+  <loc>http://localhost:8000/posts/rst-format-directives/</loc>
+  <lastmod>2017-05-24T11:07:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/posts/vtoroi-post/</loc>
+  <lastmod>2017-05-19T08:26:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="uk" href="http://localhost:8000/uk/posts/drugiy-post/" />
+ </url>
+ <url>
+  <loc>http://localhost:8000/uk/</loc>
+  <lastmod>2017-05-25T04:42:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/uk/2017/</loc>
+  <lastmod>2017-05-19T08:25:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/uk/about/</loc>
+  <lastmod>2017-05-19T10:55:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/uk/archive.html</loc>
+  <lastmod>2017-05-25T10:13:00Z</lastmod>
+ </url>
+ <url>
+  <loc>http://localhost:8000/uk/blog/</loc>
   <lastmod>2017-05-17T08:31:00Z</lastmod>
  </url>
  <url>
-  <loc>http://nikoboo4u.github.io/categories/</loc>
-  <lastmod>2017-05-17T08:31:00Z</lastmod>
+  <loc>http://localhost:8000/uk/categories/</loc>
+  <lastmod>2017-05-24T06:45:00Z</lastmod>
  </url>
  <url>
-  <loc>http://nikoboo4u.github.io/en/</loc>
-  <lastmod>2017-05-17T08:32:00Z</lastmod>
+  <loc>http://localhost:8000/uk/categories/nikola/</loc>
+  <lastmod>2017-05-24T06:45:00Z</lastmod>
  </url>
  <url>
-  <loc>http://nikoboo4u.github.io/en/archive.html</loc>
-  <lastmod>2017-05-17T08:32:00Z</lastmod>
+  <loc>http://localhost:8000/uk/contacts/</loc>
+  <lastmod>2017-05-19T11:24:00Z</lastmod>
  </url>
  <url>
-  <loc>http://nikoboo4u.github.io/en/blog/</loc>
-  <lastmod>2017-05-17T08:32:00Z</lastmod>
+  <loc>http://localhost:8000/uk/galleries/</loc>
+  <lastmod>2017-05-19T08:24:00Z</lastmod>
  </url>
  <url>
-  <loc>http://nikoboo4u.github.io/en/categories/</loc>
-  <lastmod>2017-05-17T08:32:00Z</lastmod>
+  <loc>http://localhost:8000/uk/golovna/</loc>
+  <lastmod>2017-05-19T09:32:00Z</lastmod>
  </url>
  <url>
-  <loc>http://nikoboo4u.github.io/en/galleries/</loc>
-  <lastmod>2017-05-17T08:31:00Z</lastmod>
+  <loc>http://localhost:8000/uk/home/</loc>
+  <lastmod>2017-05-25T04:42:00Z</lastmod>
  </url>
  <url>
-  <loc>http://nikoboo4u.github.io/galleries/</loc>
-  <lastmod>2017-05-17T08:31:00Z</lastmod>
+  <loc>http://localhost:8000/uk/posts/</loc>
+  <lastmod>2017-05-24T11:07:00Z</lastmod>
  </url>
  <url>
-  <loc>http://nikoboo4u.github.io/listings/</loc>
-  <lastmod>2017-05-17T08:31:00Z</lastmod>
+  <loc>http://localhost:8000/uk/posts/drugiy-post/</loc>
+  <lastmod>2017-05-19T08:26:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:8000/posts/vtoroi-post/" />
  </url>
  <url>
-  <loc>http://nikoboo4u.github.io/uk/</loc>
-  <lastmod>2017-05-17T08:32:00Z</lastmod>
+  <loc>http://localhost:8000/uk/posts/first-post/</loc>
+  <lastmod>2017-05-24T06:54:00Z</lastmod>
  </url>
  <url>
-  <loc>http://nikoboo4u.github.io/uk/archive.html</loc>
-  <lastmod>2017-05-17T08:31:00Z</lastmod>
+  <loc>http://localhost:8000/uk/posts/pershi-post/</loc>
+  <lastmod>2017-05-19T08:26:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:8000/posts/pervyi-post/" />
+  <xhtml:link rel="alternate" hreflang="en" href="http://localhost:8000/en/posts/first-post/" />
  </url>
  <url>
-  <loc>http://nikoboo4u.github.io/uk/blog/</loc>
-  <lastmod>2017-05-17T08:31:00Z</lastmod>
+  <loc>http://localhost:8000/uk/posts/pervyi-post/</loc>
+  <lastmod>2017-05-17T13:21:00Z</lastmod>
  </url>
  <url>
-  <loc>http://nikoboo4u.github.io/uk/categories/</loc>
-  <lastmod>2017-05-17T08:32:00Z</lastmod>
+  <loc>http://localhost:8000/uk/posts/rst-format-directives/</loc>
+  <lastmod>2017-05-24T11:07:00Z</lastmod>
+  <xhtml:link rel="alternate" hreflang="ru" href="http://localhost:8000/posts/rst-format-directives/" />
  </url>
  <url>
-  <loc>http://nikoboo4u.github.io/uk/galleries/</loc>
-  <lastmod>2017-05-17T08:31:00Z</lastmod>
+  <loc>http://localhost:8000/uk/posts/vtoroi-post/</loc>
+  <lastmod>2017-05-17T13:24:00Z</lastmod>
  </url>
 </urlset>
